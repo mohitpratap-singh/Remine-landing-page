@@ -1,0 +1,315 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+body::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 1.8;
+    background-image: url(https://img.freepik.com/free-photo/assortment-sorted-tech-objects_23-2148996917.jpg?w=1800&t=st=1683049651~exp=1683050251~hmac=13b973b9e6c9b7448b8ad11362b1ee0602f0873df056605bc28e9e6b221590e3);
+    background-size: initial;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+
+
+/* Horizontal Lists */
+
+.bars{
+    color: rgb(228, 19, 19);
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+}
+
+.bars i {
+    font-size: 2rem;
+}
+
+/* .dropdown-list{
+    margin: 0;
+    display: none;
+    background-color: #828470;
+    box-shadow: 0px 4px 8px 1px #535547;
+}
+
+.dropdown-list ul{
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+} */
+
+/* .dropdown-menu:hover .dropdown-list{
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+.dropdown-list li{
+    margin: 0.4rem 0px;
+}  */
+
+/* .no-list-style{
+    list-style: none;
+} */
+
+ .no-list-style li {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: rgb(8, 16, 5);
+    text-decoration:solid;
+    font-weight: 900;
+}
+
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+    
+    
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    
+}
+
+.nav-menu{
+    /* overflow: hidden; */
+    position: fixed;
+    background-color: #d1d2d4;
+    width: 100%;
+    z-index:99;
+    margin-top: -20px;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    box-shadow: 10px 10px 10px 10px #312828ef
+    
+    
+    
+  }
+
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+    
+}
+
+.nav-menu li a:hover {
+    color: rgb(171, 33, 33);
+    border-bottom: 1px solid black;
+}
+
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+    width: 800px;
+    margin-left: 320px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px #200303
+    
+}
+
+#name-social-container   {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: rgb(8, 14, 9);
+    font-weight: 1100;
+    margin-bottom: 0.5rem;
+    background-color: #95646447;
+}
+
+/* .social-icons li a i {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+} */
+
+/* .social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+} */
+
+
+
+/*Section Classes*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+
+
+/*About Section*/
+
+#WhyChooseUs {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#WhyChooseUs-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+
+
+Skills Section*/
+.serviceClass{
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+
+}
+
+#service-para {
+    
+    width: 28%;
+    text-align: justify;
+    color: rgb(15, 8, 1);
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin-left: 80px;
+    
+}
+
+
+
+/* Common Text Align Classes */
+
+.text-right{
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 30px;
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
+
+
+
+/*common color classes */
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+
+#footer{
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: rgb(240, 40, 14);
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(255 11 117); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 25px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+
+
+  
